@@ -130,9 +130,7 @@ footer {
     padding: 20px;
     font-size: 14px;
 }
-    /* =========================
-   Theme Toggle Button
-========================= */
+    /*Theme Toggle Button*/
 
 #theme-toggle {
     margin-top: 10px;
@@ -168,6 +166,10 @@ body.dark-mode nav {
 body.dark-mode section {
     background-color: #3b2b28;
     border: 1px solid #5a403c;
+}
+
+body.dark-mode section h2 {
+    color: #f4c27a; /* warm gold tone */
 }
 
 body.dark-mode footer {
