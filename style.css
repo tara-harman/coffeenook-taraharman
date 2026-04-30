@@ -183,4 +183,92 @@ body.dark-mode nav ul li a {
 body.dark-mode nav ul li a:hover {
     color: #f4c27a;
 }
+//FAQ Styling//
+.faq-question {
+    width: 100%;
+    background-color: #6f4e37;
+    color: #fff;
+    border: none;
+    padding: 18px;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.faq-question:hover,
+.faq-question.active {
+    background-color: #4b2e2b;
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    background-color: #fffaf4;
+    padding: 0 18px;
+}
+
+.faq-answer.active {
+    max-height: 200px;
+    padding: 18px;
+}
+
+body.dark-mode .faq-question {
+    background-color: #3a2a28;
+}
+
+body.dark-mode .faq-question:hover,
+body.dark-mode .faq-question.active {
+    background-color: #2a1a18;
+}
+
+//Responsive Design//
+#nav-toggle {
+    display: none;
+    background-color: #f4c27a;
+    color: #3b2f2f;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px auto;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+        padding-top: 15px;
+    }
+
+    nav ul.show {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 12px 0;
+    }
+
+    #nav-toggle {
+        display: block;
+    }
+
+    main {
+        padding: 40px 15px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+}
+}
     
