@@ -1,6 +1,4 @@
-/* =========================
-   Reset
-========================= */
+/*Reset*/
 
 * {
     margin: 0;
@@ -8,9 +6,7 @@
     box-sizing: border-box;
 }
 
-/* =========================
-   Body Styling
-========================= */
+/* Body Styling*/
 
 body {
     font-family: 'Lato', sans-serif;
@@ -20,9 +16,7 @@ body {
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-/* =========================
-   Sticky Header
-========================= */
+/*Sticky Header*/
 
 .top-bar {
     position: sticky;
@@ -30,9 +24,7 @@ body {
     z-index: 1000;
 }
 
-/* =========================
-   Header
-========================= */
+/*Header*/
 
 header {
     background-color: #4b2e2b;
@@ -54,9 +46,7 @@ header p {
     opacity: 0.9;
 }
 
-/* =========================
-   Navigation
-========================= */
+/*Navigation*/
 
 nav {
     background-color: #6f4e37;
@@ -90,9 +80,7 @@ nav ul li a:hover {
     color: #f4c27a;
 }
 
-/* =========================
-   Mobile Navigation Button
-========================= */
+/*Mobile Navigation Button*/
 
 #nav-toggle {
     display: none;
@@ -107,9 +95,7 @@ nav ul li a:hover {
     font-weight: 600;
 }
 
-/* =========================
-   Main Content
-========================= */
+/*Main Content*/
 
 main {
     display: flex;
@@ -141,9 +127,7 @@ section p {
     margin-bottom: 12px;
 }
 
-/* =========================
-   Images
-========================= */
+/*Images*/
 
 img {
     max-width: 100%;
@@ -152,9 +136,7 @@ img {
     border-radius: 6px;
 }
 
-/* =========================
-   FAQ Accordion
-========================= */
+/*AQ Accordion*/
 
 .faq-item {
     margin-top: 18px;
@@ -215,9 +197,7 @@ img {
     margin: 0;
 }
 
-/* =========================
-   Footer
-========================= */
+/*Footer*/
 
 footer {
     background-color: #4b2e2b;
@@ -227,9 +207,7 @@ footer {
     font-size: 14px;
 }
 
-/* =========================
-   Theme Toggle Button
-========================= */
+/*Theme Toggle Button*/
 
 #theme-toggle {
     margin-top: 10px;
@@ -247,9 +225,7 @@ footer {
     background-color: #e0a95c;
 }
 
-/* =========================
-   Dark Mode
-========================= */
+/*Dark Mode*/
 
 body.dark-mode {
     background-color: #2b1e1b;
@@ -309,9 +285,7 @@ body.dark-mode .faq-answer p {
     color: #f5e6d3;
 }
 
-/* =========================
-   Responsive Design
-========================= */
+/* Responsive Design*/
 
 @media (max-width: 768px) {
     #nav-toggle {
